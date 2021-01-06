@@ -18,4 +18,15 @@ app.get('/login', (req, res)=>{
 <p>パスワード</p>
     <input type='password'>
 ```
+## ユーザー認証の処理を作ろう（１）
+ログイン画面のフォームの値を受け取るルーティングを用意
+
+```list.ejs
+<li><a href="/login">ログイン</a></li>
+```
+
+```app.js
+app.post("/login", (req, res) => {
+  res.redirect("/list");
+```
 
