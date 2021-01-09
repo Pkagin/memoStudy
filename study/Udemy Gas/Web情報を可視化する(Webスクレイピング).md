@@ -37,7 +37,7 @@ function scraping() {
 
 ## シートに書き込む
 
-シートとGASを連携させ、`sheet.getEange`で情報を書き込む。
+シートとGASを連携させ、`sheet.getRange`で情報を書き込む。
 
 ```gas:gas
 function writeData(){
