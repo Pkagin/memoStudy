@@ -2,7 +2,7 @@
 const REPLY = "https://api.line.me/v2/bot/message/reply";
 
 // アクセストークン
-const ACCESS_TOKEN = "CA6uO6YK9PaqWRqxYVxL8dQFBIaoiWkhAA3sUd4i9XgJyOATUfpkG0E3nCB4w1xilRXyqrUAd1bIc2kf6pKFJRZATWeRwgtY3kQ6JFGTBZO9KIjaRl3Q9zolTbBkRFKD97BeI5sxIa9+mPd7mYJ0ywdB04t89/1O/w1cDnyilFU=";
+const ACCESS_TOKEN = "アクセストークン";
 
 // スプレッドシート情報
 const SHEET_ID   = '1dDHbpPX-7tdNEQW-VaA4IvydrJBPksP806nNXsHumWY';
