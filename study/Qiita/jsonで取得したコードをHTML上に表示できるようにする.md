@@ -22,7 +22,7 @@ async function testfunc(){
 ・`appendChild()`を用いて、取得した情報をHTML上に表示させるようにす　　る。
 
 
-```
+```index.js
     users.forEach((user) => {
         const title = document.createElement("p");
         title.innerText = user.id;
