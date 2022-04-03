@@ -12,13 +12,32 @@
 
     <p id="text">hello world!</p>
 
-    <script type"text/javaScript">
+    <button id="myButton">Change Text!</button>
+
+    <script type="text/javaScript">
         //パラグラムのコンテンツを更新する処理
         /*
         getElementByIdは、IDを指名してブロック要素を取り出す。
         innerHTMLは、その中のコンテンツ(テキスト)を取り出します。
         */
-        document.getElementById("text").innerHTML = "hello rob!"
+        //document.getElementById("text").innerHTML = "hello rob!"
+
+        document.getElementById("myButton").onclick = function () {
+            //alert("ボタンがクリックされました!");
+            document.getElementById("text").innerHTML = "くりっくしました"
+        }
     </script>
+
+    <p id = "secondParagraph">javaScriptは、</p>
+    <button id = "secondButton">追記する</button>
+    <script type="text/javaScript">
+        document.getElementById("secondButton").onclick = function () {
+        /*    document.getElementById("secondParagraph").innerHTML = "プラウザで動作する";
+        */
+            //文字列を追記する。appendする。.innerHTML +="";
+            document.getElementById("secondParagraph").innerHTML += "プラウザで動作する";
+        }
+    </script>
+
 </body>
 </html>
